@@ -1,0 +1,24 @@
+{
+  "name": "next-react-router",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start:dev": "nodemon server.js",
+    "start:prod": "SET NODE_ENV=production & nodemon server.js"
+    
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-less": "^1.0.1",
+    "express": "^4.17.1",
+    "less": "^3.10.3",
+    "next": "9.1.3",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "rsuite": "^4.1.1"
+  }
+}
