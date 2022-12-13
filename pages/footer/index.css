@@ -10,6 +10,140 @@
     align-items: center;
     
   }
+  .Finddeveloperda-al {
+    width: 184px;
+    height: 18px;
+    margin: 1px 10px 1px 0;
+    font-family: MarkPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+  }
+  
+  img.iskur-logo {
+    width: 80px;
+    height: 80px;
+    margin: 2px 16px 2px 0;
+    object-fit: contain;
+  }
+  .Trke {
+    width: 50px;
+    height: 20px;
+    margin: 0 6px 0 0;
+    font-family: MarkPro;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+  }
+  .Yardm-Merkezi {
+    width: 106px;
+    height: 18px;
+    margin: 1px 0 1px 10px;
+    font-family: MarkPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+  }
+  .Hakkmzda {
+    width: 80px;
+    height: 18px;
+    margin: 1px 10px;
+    font-family: MarkPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+  }
+  
+  .Rectangle-Copy-4 {
+    width: 1px;
+    height: 20px;
+    margin: 0 10px;
+    border-radius: 0.5px;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  .artlar {
+    width: 49px;
+    height: 18px;
+    margin: 1px 0 1px 10px;
+    font-family: MarkPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+  }
+  
+  .Gizlilik {
+    width: 44px;
+    height: 18px;
+    margin: 1px 10px;
+    font-family: MarkPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+  }
+  .erezler {
+    width: 57px;
+    height: 18px;
+    margin: 1px 12px 1px 10px;
+    font-family: MarkPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+  }
+  .Gizlilik-Merkezi {
+    width: 101px;
+    height: 18px;
+    margin: 1px 10px 1px 0;
+    font-family: MarkPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+  }
+  .-Finddeveloper {
+    width: 166px;
+    height: 18px;
+    margin: 1px 50px 40px 0;
+    font-family: MarkPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+  }
   .bg_first{
     display: flex;
     flex-direction: row;
@@ -18,13 +152,27 @@
    
     justify-content: center;
     align-items: center;
+    margin-top: 31px;
     
   }
+  .iskur_image{
+    width: 80px;
+  height: 80px;
+  margin: 2px 16px 2px 0;
+  object-fit: contain;
+  }
+ 
   .bg_second{
     display: flex;
+    margin-top: 40px;
     flex-direction: row;
     width: 100%;
     height: 100%;
+
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 150px;
+  
   
     
   }
@@ -38,7 +186,15 @@
     align-items: center;
   }
   .footer_color{
-    color:white
+    color:white;
+    
+ 
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  color: #fff;
   }
  
   .list_row{
@@ -49,6 +205,9 @@
     height: auto;
 
 
+  }
+  .image_margin{
+    margin-right: 16px;
   }
 ul{
     flex-direction: row;

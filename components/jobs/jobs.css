@@ -1,0 +1,45 @@
+.Rectangle {
+    width: 1140px;
+    height: 140px;
+    margin: 15px 20px 0;
+    padding: 15px 10px 15px 43px;
+    border-radius: 8px;
+    border: solid 1px #ccc;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .IT-Mdr {
+    width: 98px;
+    height: 25px;
+    margin: 0 2px 5px 3px;
+    font-family: MarkPro;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #666768;
+  }
+  .jobs_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Bosch {
+    width: 47px;
+    height: 20px;
+    margin: 5px 28px 14px;
+    font-family: MarkPro;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #6b7998;
+  }

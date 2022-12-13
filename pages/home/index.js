@@ -1,17 +1,24 @@
 import React from "react"
 import "./home.css"
 import Footer from '../footer/index'
-
+import Companies from '../../components/companies/index'
+import Jobs from '../../components/jobs/index'
+import PopulerSearch from '../../components/populer_search/index'
 export default () => (
  <div className="home_container">
-  <div>
  
+  <img src={require("../../assets/images/home.png")}
+    
+     className="BG_image"/>
+ 
+ <PopulerSearch/>
+ <Jobs/>
+
+  <div>
+   <Companies/>
   </div>
-  <div>2</div>
-  <div>3</div>
-  <div>4</div>
   <div>5</div>
-  <div></div>
- <Footer/>
+  <div><Footer/></div>
+
  </div>
 )
