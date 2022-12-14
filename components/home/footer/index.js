@@ -1,5 +1,5 @@
 import React from 'react'
-import './index.css'
+import './footer.css'
 
 export default function index() {
   return (
@@ -49,9 +49,9 @@ export default function index() {
         </div>
       </div>
       <div className='bg_second'>
-       <div className='image_margin'><img src={require('../../assets/images/iskur-logo.png')}
-     srcset="../../assets/images/iskur-logo@2x.png 2x,
-             ../../assets./images/iskur-logo@3x.png 3x"
+       <div className='image_margin'><img src={require('../../../assets/images/iskur-logo.png')}
+     srcset="../../../assets/images/iskur-logo@2x.png 2x,
+             ../../../assets./images/iskur-logo@3x.png 3x"
      class="iskur-logo"/></div>
         <div className='footer_color'><p>
         Finddeveloper.net A.Ş. Özel İstihdam Bürosu  <br/> Olarak 31/08/2018-30/08/2021 tarihleri arasında faaliyette bulunmak üzere, Türkiye İş Kurumu tarafından 16.07.2018 tarih ve 26124 sayılı karar uyarınca 170 nolu belge ile <br/> faaliyet göstermektedir. 4904 sayılı kanun uyarınca iş arayanlardan ücret alınmayacak ve menfaat temin <br/> edilmeyecektir. Şikayetleriniz için aşağıdaki telefon numaralarına başvurabilirsiniz. Diğer iller için tıklayın. Türkiye <br/> İş Kurumu İstanbul İl Müdürlüğü: 0212 555 55 55 Türkiye iş Kurumu İstanbul Çalışma ve İş Kurumu Ümraniye <br/> Hizmet Merkezi :
