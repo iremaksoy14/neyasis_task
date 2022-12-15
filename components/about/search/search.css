@@ -1,0 +1,23 @@
+.searchFrame {
+    width: 100%;
+    height: 100px;
+    margin: 1px 0 30px;
+    background-color: #f5f7ff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.searchFrame input{
+    width: 798px;
+    height: 56px;
+    border-radius: 50px;
+    border: solid 1px #4361ee;
+    background-color: #fff;
+}
+.searchFrame button{
+    width: 160px;
+    height: 56px;
+    border-radius: 50px;
+    border: solid 1px #4361ee;
+}

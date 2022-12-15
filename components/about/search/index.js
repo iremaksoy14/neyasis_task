@@ -2,8 +2,9 @@ import React from 'react';
 import './search.css'
 function index(props) {
     return (
-        <div>
-            
+        <div className='searchFrame'>
+            <input/>
+            <button>finf</button>
         </div>
     );
 }

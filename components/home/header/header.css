@@ -1,0 +1,86 @@
+nav {
+    height: 478px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.buttonsFrame {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 150px;
+}
+
+.buttonsFrame button {
+    width: 100px;
+    height: 36px;
+    margin: 0 20px 0 0;
+    padding: 8px 18px;
+    border-radius: 18px;
+    border: solid 1px #fff;
+    background-color: transparent;
+    color: white;
+}
+
+.centerFrame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+    margin-top: 84px;
+}
+
+.centerFrame img:nth-child(2) {
+    margin-top: 20px;
+}
+
+.searchFrame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent!important;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 48px;
+}
+
+.searchFrame input {
+    width: 554px;
+    height: 56px;
+    margin: 0 15px 10px 0;
+    padding: 16px 198px 16px 20px;
+    border-radius: 28px;
+    background-color: #fff;
+}
+
+.searchFrame button {
+    width: 160px;
+    height: 56px;
+    margin: 0 0 10px 15px;
+    padding: 16px 50px 15px;
+    border-radius: 28px;
+}
+.bottomLinkFrame{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+.bottomLinkFrame a{
+    width: 99px;
+    height: 18px;
+    margin-right: 20px;
+    font-family: MarkPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+}

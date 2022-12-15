@@ -1,0 +1,41 @@
+.postingContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1140px;
+    height: fit-content;
+    margin: auto;
+    margin-top: 40px;
+}
+.postingContainer h{
+    width: 205px;
+    height: 30px;
+    font-family: MarkPro;
+    font-size: 24px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #666768;
+}
+.postingContainer div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.postingContainer div article{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+.postingContainer div article label{
+    font-family: MarkPro;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #666768;
+}

@@ -1,0 +1,6 @@
+.sectionContainer{
+    display: flex;
+    flex-direction: row;
+    width: 1140px;
+    margin: auto;
+}

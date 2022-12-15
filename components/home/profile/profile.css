@@ -1,0 +1,15 @@
+.profileContainer{
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin: auto;
+    margin-top: 40px;
+}
+.profileContainer article{
+    width: 555px;
+    height: 325px;
+    object-fit: contain;
+    position: relative;
+}

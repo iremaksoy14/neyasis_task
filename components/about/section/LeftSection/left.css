@@ -1,0 +1,97 @@
+.leftSectionFrame {
+    display: flex;
+    flex-direction: column;
+    min-width: fit-content;
+}
+
+.leftSectionFrame article {
+    width: 260px;
+    height: 260px;
+    border-radius: 12px;
+    border: solid 1px #4361ee;
+    background-color: #eff1f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftSectionFrame span {
+    margin-top: 20px;
+    margin-bottom: 13px;
+    font-family: SanFranciscoDisplay;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4361ee;
+}
+
+.cvLinkFrame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 18px;
+    margin-bottom: 16px;
+}
+
+.cvLinkFrame a {
+    font-family: Nunito;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #0d1822;
+    text-decoration: underline;
+}
+
+.leftSectionFrame hr {
+    width: 260px;
+    height: 1px;
+    margin: 0px;
+    margin-top: 29px;
+    margin-bottom: 29px;
+    background-color: rgba(107, 121, 152, 0.3);
+}
+
+.webSitesFrame {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.webSitesFrame img {
+    height: 20px;
+    width: 20px;
+   
+}
+.ducFrame{
+    margin-top: 20px;
+}
+.ducFrame div {
+    width: 260px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.ducFrame div img:nth-child(1) {
+    height: 24px;
+    width: 24px;
+    background-color: grey;
+}
+
+.ducFrame div label {}
+
+.ducFrame div img:nth-last-child(1) {
+    height: 16px;
+    width: 16px;
+    background-color: grey;
+}

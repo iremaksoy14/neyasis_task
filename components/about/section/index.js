@@ -5,9 +5,12 @@ import './index.css'
 
 function index(props) {
     return (
-        <div>
+        <div className='sectionContainer'>
+            <LeftSection />
+            <RightSection />
             
         </div>
+
     );
 }
 

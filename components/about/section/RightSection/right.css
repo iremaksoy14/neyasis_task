@@ -1,0 +1,101 @@
+.rightSectionContainer {
+    display: flex;
+    flex-direction: column;
+    min-width: 782px;
+    width: 782px;
+    margin-left: 98px;
+}
+
+.rightSectionContainer a {
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4361ee;
+}
+
+.info {
+    width: 736px;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #6b7998;
+}
+
+.rightSectionContainer .title {
+    font-family: Nunito ;
+    font-size: 32px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #5b6987;
+}
+
+.rightSectionContainer hr {
+    width: 782px;
+    height: 1px;
+    margin: 15px 0 14px;
+    background-color: rgba(107, 121, 152, 0.3);
+}
+
+.rightSectionContainer .duzenle {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #6b7998;
+}
+
+.rightSectionContainer div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.contentText {
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #5b6987;
+}
+
+.rightSectionContainer div {
+    margin-top: 30px;
+}
+.m-10{
+    margin-top: 10px!important;
+}
+.m-2{
+    margin-top: 2px;
+}
+.w-fit{
+    width: fit-content!important;
+}
+.wrappedFrame{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 567px;
+    justify-content: space-between;
+    gap: 0px 250px;
+    max-height: fit-content;
+    margin-top: 0px !important;
+}

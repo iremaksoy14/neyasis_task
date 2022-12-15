@@ -13,10 +13,11 @@
     .Mask {
         width: 1140px;
         height: 280px;
-        margin: 40px 150px;
         padding: 30px 9px 30px 18px;
         border-radius: 20px;
         background-color: #f7f6f6;
+        margin: auto;
+        margin-top: 40px;
       }
   }
   
