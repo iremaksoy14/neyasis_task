@@ -22,9 +22,9 @@ console.log(jobsData)
       </label>
       <div className='scrollmenu'>
         {
-          jobsData.map((item)=>{
+          jobsData.map((item,index)=>{
             return(
-              <button>
+              <button key={index}>
                   {item.title}
               </button>
             )

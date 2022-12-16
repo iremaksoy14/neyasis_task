@@ -5,7 +5,7 @@ import leftArrow from "../../../assets/images/left-arrow.png";
 
 
 export default function BtnSlider({ direction, moveSlide }) {
-  console.log(direction, moveSlide);
+  
   return (
     <button
       onClick={moveSlide}

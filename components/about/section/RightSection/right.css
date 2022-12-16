@@ -9,7 +9,7 @@
 }
 
 .rightSectionContainer a {
-    font-family: Nunito;
+    /* font-family: Nunito; */
     font-size: 24px;
     font-weight: 800;
     font-stretch: normal;
@@ -31,7 +31,7 @@
 
 .info {
     width: 736px;
-    font-family: Nunito;
+    /* font-family: Nunito; */
     font-size: 16px;
     font-weight: normal;
     font-stretch: normal;
@@ -42,7 +42,7 @@
 }
 
 .rightSectionContainer .title {
-    font-family: Nunito ;
+    /* font-family: Nunito ; */
     font-size: 32px;
     font-weight: 800;
     font-stretch: normal;
@@ -60,7 +60,7 @@
 }
 
 .rightSectionContainer .duzenle {
-    font-family: Nunito;
+    /* font-family: Nunito; */
     font-size: 16px;
     font-weight: bold;
     font-stretch: normal;
@@ -79,7 +79,7 @@
 }
 
 .contentText {
-    font-family: Nunito;
+    /* font-family: Nunito; */
     font-size: 24px;
     font-weight: 800;
     font-stretch: normal;

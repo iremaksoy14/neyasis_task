@@ -23,7 +23,7 @@
     align-items: center;
   }
   .footerTop span{
-    font-family: MarkPro;
+    /* font-family: MarkPro; */
     font-size: 14px;
     font-weight: normal;
     font-stretch: normal;
@@ -69,7 +69,7 @@
     width: 450px;
     height: 84px;
     margin: 0 0 0 16px;
-    font-family: MarkPro;
+    /* font-family: MarkPro; */
     font-size: 8px;
     font-weight: normal;
     font-stretch: normal;

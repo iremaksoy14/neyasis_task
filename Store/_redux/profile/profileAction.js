@@ -12,7 +12,7 @@ export const getUsers = () => dispatch => {
     .then(response => {
       if(response.status===200){
          //State güncelleme  
-         console.log(response)        
+             
       //  dispatch(actions.userGetList(response.data));
 
       }

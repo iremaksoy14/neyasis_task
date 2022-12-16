@@ -19,9 +19,9 @@ function index(props) {
             <h>Sizin için iş ilanları</h>
             <div>
                 {
-                    worksData.map((item)=>{
+                    worksData.map((item,index)=>{
                         return(
-                            <article>
+                            <article key={index}>
                                 <label>{item.category}</label>
                                 {
                                     item.content.map((content)=>{

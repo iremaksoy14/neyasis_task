@@ -4,8 +4,7 @@ export default function setupAxios(axios, store) {
         const {
           auth: { authToken }
         } = store.getState();
-        //console.log( "setupAxios.js")
-        //console.log(authToken)
+        
         if (authToken) {
           config.headers.Authorization = `Bearer ${authToken}`;
         }

@@ -84,9 +84,9 @@ function index(props) {
             </span>
             <div className='webSitesFrame'>
                 {
-                    social_media.map((item)=>{
+                    social_media.map((item,index)=>{
                         return(
-                            <img src={item.url}/>
+                            <img key={index} src={item.url}/>
                         )
                     })
                 }
@@ -96,9 +96,9 @@ function index(props) {
             <a>Dokümanlar</a>
             <div className='ducFrame'>  
                 {
-                  documentInfo.map((item)=>{
+                  documentInfo.map((item,index)=>{
                         return(
-                            <div>
+                            <div key={index}>
                                 <div className='itemsFrame'>
                                 <img src={item.img}/>
                                 <label>{item.name}</label>

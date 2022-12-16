@@ -10,7 +10,7 @@ export const getJobs = () => dispatch => {
      //Api işlemleri için
     .getJobsCrud()    
     .then(response => {
-      console.log(response)
+     
       if(response.status===200){
          //State güncelleme          
        dispatch(actions.jobsGetted(response.data));
@@ -20,7 +20,7 @@ export const getJobs = () => dispatch => {
       return true
     })
     .catch(error => {     
-      console.log(error) 
+     
      //Hata gönderme      
       dispatch(actions.catchError({ error, callType: callTypes.list }));
       return false
@@ -37,7 +37,7 @@ export const getWorks = () => dispatch => {
     .getWorksCrud()    
     .then(response => {
      //State güncelleme     
-     console.log(response)
+     
      if(response.status===200){
         dispatch(actions.worksGetted(response.data));
      }     
@@ -59,7 +59,7 @@ export const getCompanies = () => dispatch => {
     .getCopaniesCrud()    
     .then(response => {
      //State güncelleme     
-     console.log(response)
+    
      if(response.status===200){
         dispatch(actions.companiesGetted(response.data));
      }     
