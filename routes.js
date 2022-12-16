@@ -3,7 +3,7 @@ import { Redirect } from "react-router";
 import Home from "./pages/home";
 import About from "./pages/about";
 import NotFound from "./pages/notFould";
-
+import Footer from './components/home/footer/index'
 
 function Routes() {
   return (

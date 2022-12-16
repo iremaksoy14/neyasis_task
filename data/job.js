@@ -17,37 +17,51 @@ export const job=[
     {
         name:"IT Müdürü",
         company:"Bosch",
-        img:bosch
+        img:bosch,
+        width:117,
+        height:45
+      
+
 
     },
     {
-        name:"IT Müdürü",
-        company:"Bosch",
-        img:bosch
+        name:"Front-end Dev",
+        company:"Aktif Bank Genel",
+        img:aktif,
+        width:114,
+        height:48
 
     },
     {
-        name:"IT Müdürü",
-        company:"Bosch",
-        img:bosch
+        name:"Back-end Dev",
+        company:"Akbank Bank Genel ",
+        img:akbank,
+        width:115,
+        height:53
 
     },
     {
-        name:"IT Müdürü",
-        company:"Bosch",
-        img:bosch
+        name:".net Developer",
+        company:"Arcelik",
+        img:arcelik,
+        width:112,
+        height:48
 
     },
     {
-        name:"IT Müdürü",
-        company:"Bosch",
-        img:bosch
+        name:"Junior .net Dev.",
+        company:"Allianz",
+        img:allianz,
+        width:111,
+        height:51
 
     },
     {
-        name:"IT Müdürü",
-        company:"Bosch",
-        img:bosch
+        name:"Sales Manager",
+        company:"Bezmialem Vakıf Ü",
+        img:bezmialem,
+        width:88,
+        height:54
 
     },
 ]

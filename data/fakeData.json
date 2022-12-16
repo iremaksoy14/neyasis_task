@@ -1,0 +1,220 @@
+ 
+ {
+    "jobs": [
+        {
+            "title":"UX designer"
+        },
+        {
+            "title": "UI designer"
+        },
+        {
+            "title" : "Front-end developer"
+        },
+        {
+            "title" : "Back-end developer"
+        },
+        {
+            "title": "iOS developer"
+        }
+    ],
+    "works": [
+        {
+            "category": "Populer Kategoriler",
+            "content": [
+                {
+                    "name": "Yazılım Geliştirme"
+                },
+                {
+                    "name": "Mobil Uygulama Geliştirme"
+                },
+                {
+                    "name": "Kullanıcı Deneyimi"
+                },
+                {
+                    "name": "Kullanılabilirlik"
+                },
+                {
+                    "name": "Proje Yönetimi"
+                },
+                {
+                    "name": "İş Analizi"
+                },
+                {
+                    "name": "Raporlama Uzmanı"
+                },
+                {
+                    "name": "Test Uzmanı"
+                },
+                {
+                    "name": "Yazılım Mimarı"
+                },
+                {
+                    "name": "Arayüz Tasarımı"
+                }
+            ]
+        },
+        {
+            "category": "Populer Baslıklar",
+            "content": [
+                {
+                    "name": "Senior .net developer"
+                },
+                {
+                    "name": "Seinor Mobile developer"
+                },
+                {
+                    "name": "Kullanıcı Deneyimi Tasarımcısı"
+                },
+                {
+                    "name": "Kullanılabilirlik Uzmanı"
+                },
+                {
+                    "name": "IT Sorumlusu "
+                },
+                {
+                    "name": "Mid Level.net developer"
+                }
+            ]
+        },
+        {
+            "category": "Populer Lokasyonlar",
+            "content": [
+                {
+                    "name": "İstanbul"
+                },
+                {
+                    "name": "İzmir"
+                }
+            ]
+        },
+        {
+            "category": "Populer Şirket İlanları",
+            "content": [
+                {
+                    "name": "Koç Sistem"
+                },
+                {
+                    "name": "Aktif Bank"
+                },
+                {
+                    "name": "Akbank "
+                },
+                {
+                    "name": "Türk Hava Yolları"
+                },
+                {
+                    "name": "Brisa "
+                },
+                {
+                    "name": "Vakıfbank "
+                },
+                {
+                    "name": "Neyasis Tech "
+                }
+            ]
+        }
+    
+    ],
+    "company":[
+        {
+           "id":0,
+           "name":"acibadem",
+           "img":"../assets/images/company/acibadem.png",
+           "width":136,
+           "height":95
+        },
+        {
+            "id":1,
+            "name":"akbank",
+            "img":"../assets/images/company/acibadem.png",
+            "width":136,
+            "height":95
+        },
+        {
+            "id":2,
+            "name":"akcansa",
+            "img":"../assets/images/company/acibadem.png",
+            "width":119,
+            "height":95
+        },
+        {
+            "id":3,
+            "name":"akkim",
+            "img":"../assets/images/company/acibadem.png",
+            "width":136,
+            "height":95
+        },
+        {
+            "id":4,
+            "name":"akkok",
+            "img":"../assets/images/company/acibadem.png",
+            "width":136,
+            "height":95
+        },
+        {
+            "id":5,
+            "name":"aktif-bank",
+            "img":"../assets/images/company/acibadem.png",
+            "width":136,
+            "height":95
+        },
+        {
+            "id":6,
+            "name":"allianz",
+            "img":"../assets/images/company/acibadem.png",
+            "width":136,
+            "height":95
+        },
+        {
+            "id":7,
+            "name":"anadolu-sigorta",
+            "img":"../assets/images/company/acibadem.png",
+            "width":136,
+            "height":95
+        },
+        {
+            "id":8,
+            "name":"anel-group",
+            "img":"../assets/images/company/acibadem.png",
+            "width":136,
+            "height":95
+        },
+        {
+            "id":9,
+            "name":"arc-elik",
+            "img":"../assets/images/company/acibadem.png",
+            "width":112,
+            "height":28
+        },
+        {
+            "id":10,
+            "name":"bezmialem",
+            "img":"../assets/images/company/acibadem.png",
+            "width":112,
+            "height":56
+        },
+        {
+            "id":11,
+            "name":"bosch",
+            "img":"../assets/images/company/acibadem.png",
+            "width":116,
+            "height":35
+        },
+        {
+            "id":12,
+            "name":"ronesans*holding",
+            "img":"../assets/images/company/acibadem.png",
+            "width":119,
+            "height":16
+        },
+        {
+            "id":13,
+            "name":"tav",
+            "img":"../assets/images/company/acibadem.png",
+            "width":111,
+            "height":52
+        }
+    ]
+
+   
+  }

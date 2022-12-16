@@ -2,6 +2,8 @@ import React from "react"
 import Header from '../../components/about/header'
 import Section from '../../components/about/section/index'
 import Search from '../../components/about/search'
+import Footer from '../../components/about/footer/index'
+
 import './about.css'
 export default function () {
 
@@ -10,6 +12,8 @@ export default function () {
       <Header />
       <Search />
       <Section/>
+      <Footer/>
+
     </div>
 
   )

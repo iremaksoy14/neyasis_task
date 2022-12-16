@@ -6,5 +6,5 @@ module.exports = withCSS({
   future: {
       webpack5: true,
   },
-  assets: ['./assets/fonts']
+  
 });

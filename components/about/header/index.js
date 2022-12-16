@@ -1,13 +1,15 @@
 import React from 'react';
 import './header.css'
 import headerphoto from '../../../assets/images/find_logo.png'
+import find from '../../../assets/images/find.png'
+import home from '../../../assets/images/home.png'
 function index(props) {
     const user = {
         name:"Eray Karakullukçu",
         job : "Findtalent'de kurucu"
     }
     return (
-        <header>
+        <header style={{ backgroundImage:`url(${home})` }}>
             <div>
                 <img src={headerphoto}/>
                 <article>

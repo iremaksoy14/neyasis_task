@@ -1,5 +1,6 @@
 import React from 'react';
 import './right.css'
+import ok from '../../../../assets/images/ok.png'
 function index(props) {
     const user = {
         profesyonelBakis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -149,8 +150,10 @@ function index(props) {
                     user.certificates.map((certificate) => {
                         return (
                             <>
-                                <label className='info m-10' style={{ fontSize: 18 }}>{certificate.title}</label>
+                                <label className='info m-10 certificates ' style={{ fontSize: 18 }}>{certificate.title}</label>
                                 <label className='info m-2'>{certificate.name}</label>
+                                <label className='info m-2'>{certificate.date}</label>
+
                             </>
                         )
                     })
@@ -166,7 +169,8 @@ function index(props) {
                     {
                         user.skills.map((skill, index) => {
                             return (
-                                <label className='info w-fit' style={{ fontSize: 18 ,marginTop:index!=0 && index!=1 ? 10:0 }}>{skill.name}</label>
+                            <label className='info w-fit' style={{ fontSize: 18 ,marginTop:index!=0 && index!=1 ? 10:0 }}>{skill.name}</label>
+                                
                             )
                         })
                     }

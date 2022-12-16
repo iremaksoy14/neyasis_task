@@ -1,8 +1,12 @@
-import React from 'react'
+import React ,{useEffect}from 'react'
 import './companies.css'
+import {useSelector,useDispatch} from 'react-redux'
+import  * as homeAction from '../../../Store/_redux/home/homeAction';
 import {company} from '../../../data/company'
 
 export default function index() {
+  const dispatch=useDispatch()
+  
   return (
     <div className='Mask'>
          <div className='images_container'>

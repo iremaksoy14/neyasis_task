@@ -1,0 +1,110 @@
+.footerFrame{
+    width: 100%;
+    height: 80px;
+    padding: 30px 150px;
+    background-color: #626160;
+    margin-top: 40px;
+    display: flex;
+  }
+  .footerTop{
+    width: 1140px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 31px;
+    margin: auto;
+    align-items: center;
+  }
+  .footerTop_nav{
+    width: 1140px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 31px;
+    margin: auto;
+    align-items: center;
+  }
+  .footerTop span{
+    font-family: MarkPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+  }
+  .footerTop div span{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: solid 1px rgba(255,255,255,0.3);
+  }
+  .footerTop div span:nth-last-child(1){
+    border-style: none;
+  }
+  .footerTop  span:nth-last-child(1){
+    margin-left:50px ;
+  }
+  
+  .footerTop label{
+    width: 450px;
+    height: 84px;
+    margin: 0 0 0 16px;
+    font-family: MarkPro;
+    font-size: 8px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    color: #fff;
+  
+  }
+  .footer_margin{
+    margin-left: 50px;
+  }
+  .footer_secondmargin{
+    margin-left: 81px;
+  }
+  .footerTop_nav label{
+    width: 450px;
+    height: 84px;
+    margin: 0 0 0 16px;
+    font-family: MarkPro;
+    font-size: 8px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    color: #fff;
+  
+  }
+  
+  @media  screen  and (max-width: 1280px) {
+    .footerTop{
+      flex-direction: column;
+      width: 50%;
+      
+    }
+    .footer_margin{
+      margin-left: 0px;
+    }
+    .footer_secondmargin{
+      margin-left: 0px;
+    }
+    .footerTop span:nth-last-child(1){
+      margin-left: 0px;
+    }
+    .footerTop_nav{
+  width: 50%;
+    }
+    .iskur_image{
+      width: 60px;
+      height: 60px;
+    }
+    .footerFrame{
+      display: flex;
+      flex-direction: row;
+      height: 68px  !important;
+    }
+  }

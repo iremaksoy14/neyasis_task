@@ -1,13 +1,25 @@
-import React from 'react';
-import { works } from '../../../data/works';
+import React,{useEffect} from 'react';
+
+import { useDispatch,useSelector } from 'react-redux';
+import * as homeAction from '../../../Store/_redux/home/homeAction'
+
 import './postingjobs.css'
 function index(props) {
+    const dispatch=useDispatch()
+    const worksData =useSelector((state)=>state.home.works)
+    // const works=useSelector((state)=>state.home.works)
+   useEffect(()=>{
+    dispatch(homeAction.getWorks())
+    .then((res)=>console.log(res))
+    .catch((err)=>console.log(err))
+   },[])
+   console.log(worksData)
     return (
         <div className='postingContainer'>
             <h>Sizin için iş ilanları</h>
             <div>
                 {
-                    works.map((item)=>{
+                    worksData.map((item)=>{
                         return(
                             <article>
                                 <label>{item.category}</label>

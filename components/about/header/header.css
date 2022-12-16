@@ -1,7 +1,7 @@
 header {
     width: 100%;
     height: 100px;
-    background-color: blue;
+   
 }
 
 header div:nth-child(1) {
@@ -15,7 +15,7 @@ header div:nth-child(1) {
 }
 
 header div img:nth-child(1) {
-    height: 20px;
+    height: 30px;
 }
 
 header div article {
@@ -27,7 +27,7 @@ header div article {
 }
 
 header div article span {
-    font-family: Nunito;
+   
     font-size: 16px;
     font-weight: 900;
     font-stretch: normal;

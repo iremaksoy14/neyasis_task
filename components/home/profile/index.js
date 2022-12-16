@@ -6,10 +6,10 @@ function index(props) {
     return (
         <div className='profileContainer'>
             <article>
-                <img src={ara}></img>
+                <img  className='firstProfile' src={ara}></img>
             </article>
             <article>
-                <img src={isveren}></img>
+                <img className='secondProfile' src={isveren}></img>
             </article>
         </div>
     );

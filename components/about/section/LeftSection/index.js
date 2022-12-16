@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect,useState} from 'react';
 import './left.css'
 import behance from "../../../../assets/images/social/behance.png";
 import facebook from "../../../../assets/images/social/facebook.png";
@@ -8,12 +8,22 @@ import neun from "../../../../assets/images/social/neun.png";
 import shape from "../../../../assets/images/social/shape.png";
 import twitter from "../../../../assets/images/social/twitter.png";
 import connection from "../../../../assets/images/social/connection.png";
-
-
-import { isNullOrUndefined } from 'util';
-
+import editfilled from '../../../../assets/images/editfillled.png'
+import profile from '../../../../assets/images/profile.png'
+import dowland from '../../../../assets/images/dowland.png'
+import filled from '../../../../assets/images/filled.png'
+import filledpdf from '../../../../assets/images/filledpdf.png'
+import cross from '../../../../assets/images/cross.png'
+import searching from '../../../../assets/images/searching.png'
+import paper from '../../../../assets/images/paper.png'
+import * as homeActionAction from '../../../../Store/_redux/home/homeAction'
+import {useDispatch,useSelector} from 'react-redux'
+import golge from '../../../../assets/images/golge.png'
 
 function index(props) {
+  
+
+   
     const user = {
         name: "Nesil Aksoy",
         job: "UX Designer",
@@ -34,9 +44,23 @@ function index(props) {
       
 
     ]
+    const documentInfo=[
+        { img:filled,name:"eraycv.docx"},
+        { img:filledpdf,name:"eraycv—eng.pdf"},
+        { img:filledpdf,name:"mcpd-cert.pdf"},
+    ]
+    const documentSaved=[
+        { img:searching,name:"Neyasis Tech"},
+        { img:searching,name:"Apple"},
+     
+    ]
+    const applicaitons=[
+        { img:paper,name:"Neyasis Tech."},  
+    ]
+
     return (
         <div className='leftSectionFrame'>
-            <article></article>
+            <article><img className='article_image' src={golge}/><img className='edit_image' src={editfilled} alt="burası"/><img src={profile}/></article>
             <span>{user.name}</span>
             {
                 Object.keys(user).map((key) => {
@@ -50,7 +74,7 @@ function index(props) {
                 })
             }
             <div className='cvLinkFrame'>
-                <img></img>
+                <img  src={dowland}></img>
                 <a>Find CV'mi indir</a>
             </div>
             <a>Profili Düzenle</a>
@@ -72,12 +96,15 @@ function index(props) {
             <a>Dokümanlar</a>
             <div className='ducFrame'>  
                 {
-                    Array.from(Array(3).keys()).map((item)=>{
+                  documentInfo.map((item)=>{
                         return(
                             <div>
-                                <img/>
-                                <label>fasfsdfsdf</label>
-                                <img/>
+                                <div className='itemsFrame'>
+                                <img src={item.img}/>
+                                <label>{item.name}</label>
+                                </div>
+                              
+                                <img src={cross}/>
                             </div>
                         )
                     })
@@ -88,12 +115,16 @@ function index(props) {
             <a>Kaydedilen Aramalar</a>
             <div className='ducFrame'>  
                 {
-                    Array.from(Array(2).keys()).map((item)=>{
+                    documentSaved.map((item)=>{
                         return(
                             <div>
-                                <img/>
-                                <label>fasfsdfsdf</label>
-                                <img/>
+                                <div className='itemsFrame'>
+                                <img src={item.img}/>
+                                <label>{item.name}</label>
+                                </div>
+
+                               
+                                <img src={cross}/>
                             </div>
                         )
                     })
@@ -103,18 +134,21 @@ function index(props) {
             <a>Başvurularım</a>
             <div className='ducFrame'>  
                 {
-                    Array.from(Array(1).keys()).map((item)=>{
+                  applicaitons.map((item)=>{
                         return(
                             <div>
-                                <img/>
-                                <label>fasfsdfsdf</label>
-                                <img/>
+                                <div className='itemsFrame' >
+                                <img src={item.img}/>
+                                <label>{item.name}</label>
+                                </div>
+                                
+                                <img src={cross}/>
                             </div>
                         )
                     })
                 }
             </div>
-            <a>Tümğnğ gör</a>
+            <a>Tümünü gör</a>
         </div>
     );
 }

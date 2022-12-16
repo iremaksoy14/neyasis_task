@@ -4,8 +4,17 @@
     min-width: fit-content;
 }
 
+.itemsFrame{
+    display: flex !important;
+    justify-content: normal !important;
+    flex-direction: row !important;
+    gap: 10px;
+    margin: 0px;
+    margin-bottom: 0px !important;
+}
 .leftSectionFrame article {
     width: 260px;
+    position: relative;
     height: 260px;
     border-radius: 12px;
     border: solid 1px #4361ee;
@@ -13,6 +22,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.edit_image{
+    position: absolute;
+    left:20px;
+    top:14px;
+}
+.article{
+    position: relative
+}
+.article_image{
+    position: absolute;
+    left:0px;
+top:0px;
 }
 
 .leftSectionFrame span {
@@ -34,6 +56,7 @@
     align-items: center;
     margin-top: 18px;
     margin-bottom: 16px;
+    gap:5px;
 }
 
 .cvLinkFrame a {
@@ -43,8 +66,13 @@
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
+ 
     letter-spacing: normal;
     color: #0d1822;
+    text-decoration: underline;
+    
+}
+.leftSectionFrame a{
     text-decoration: underline;
 }
 
@@ -85,7 +113,7 @@
 .ducFrame div img:nth-child(1) {
     height: 24px;
     width: 24px;
-    background-color: grey;
+   
 }
 
 .ducFrame div label {}
@@ -93,5 +121,5 @@
 .ducFrame div img:nth-last-child(1) {
     height: 16px;
     width: 16px;
-    background-color: grey;
+  
 }

@@ -3,15 +3,67 @@ import {Slice, callTypes} from "./homeSlice";
 
 const {actions} = Slice;
 
-export const getCompanyCrud = () => dispatch => {
+export const getJobs = () => dispatch => {
   dispatch(actions.startCall({ callType: callTypes.list }));
   return requestFromServer
 
      //Api işlemleri için
-    .getCompanies()    
+    .getJobsCrud()    
     .then(response => {
-     //State güncelleme          
-      dispatch(actions.compayGetted(response.data));
+      console.log(response)
+      if(response.status===200){
+         //State güncelleme          
+       dispatch(actions.jobsGetted(response.data));
+
+      }
+    
+      return true
+    })
+    .catch(error => {     
+      console.log(error) 
+     //Hata gönderme      
+      dispatch(actions.catchError({ error, callType: callTypes.list }));
+      return false
+    });
+  
+};
+
+
+export const getWorks = () => dispatch => {
+  dispatch(actions.startCall({ callType: callTypes.list }));
+  return requestFromServer
+
+     //Api işlemleri için
+    .getWorksCrud()    
+    .then(response => {
+     //State güncelleme     
+     console.log(response)
+     if(response.status===200){
+        dispatch(actions.worksGetted(response.data));
+     }     
+     
+      return true
+    })
+    .catch(error => {      
+     //Hata gönderme      
+      dispatch(actions.catchError({ error, callType: callTypes.list }));
+      return false
+    });
+  
+};
+export const getCompanies = () => dispatch => {
+  dispatch(actions.startCall({ callType: callTypes.list }));
+  return requestFromServer
+
+     //Api işlemleri için
+    .getCopaniesCrud()    
+    .then(response => {
+     //State güncelleme     
+     console.log(response)
+     if(response.status===200){
+        dispatch(actions.companiesGetted(response.data));
+     }     
+     
       return true
     })
     .catch(error => {      
@@ -23,24 +75,7 @@ export const getCompanyCrud = () => dispatch => {
 };
 
 
-export const getJobCrud = () => dispatch => {
-  dispatch(actions.startCall({ callType: callTypes.list }));
-  return requestFromServer
 
-     //Api işlemleri için
-    .getJobs()    
-    .then(response => {
-     //State güncelleme          
-      dispatch(actions.jobsGetted(response.data));
-      return true
-    })
-    .catch(error => {      
-     //Hata gönderme      
-      dispatch(actions.catchError({ error, callType: callTypes.list }));
-      return false
-    });
-  
-};
 
 
 

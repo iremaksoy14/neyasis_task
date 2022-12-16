@@ -48,7 +48,7 @@
 }
 
 .highlightsContainer article span {
-    font-family: MarkPro;
+    /* font-family: MarkPro; */
     font-size: 20px;
     font-weight: bold;
     font-stretch: normal;
@@ -58,7 +58,7 @@
 
 }
 .highlightsContainer article label{
-    font-family: MarkPro;
+    /* font-family: MarkPro; */
     font-size: 16px;
     font-weight: normal;
     font-stretch: normal;
@@ -66,4 +66,10 @@
     line-height: normal;
     letter-spacing: normal;
     color: #6b7998;
+}
+article span{
+    font-size: 20px;
+}
+article label{
+    font-size: 16px;
 }

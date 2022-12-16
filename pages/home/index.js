@@ -4,6 +4,7 @@ import Footer from '../../components/home/footer/index'
 import Companies from '../../components/home/companies/index'
 import Jobs from '../../components/home/jobs/index'
 
+
 import Profile from '../../components/home/profile/index'
 import Header from '../../components/home/header/index'
 import Highlights from '../../components/home/highlights/index'
@@ -18,6 +19,7 @@ export default () => {
             <Companies/>
             <PostingJob/>
             <Footer/>
+           
         </div>
     )
 }

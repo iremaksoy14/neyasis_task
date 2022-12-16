@@ -10,7 +10,7 @@
 .postingContainer h{
     width: 205px;
     height: 30px;
-    font-family: MarkPro;
+    /* font-family: MarkPro; */
     font-size: 24px;
     font-weight: 900;
     font-stretch: normal;
@@ -29,8 +29,12 @@
     display: flex;
     flex-direction: column;
 }
+.postingContainer div article label:nth-child(1){
+    font-weight: 900;
+    font-size: 18px;
+}
 .postingContainer div article label{
-    font-family: MarkPro;
+    /* font-family: MarkPro; */
     font-size: 16px;
     font-weight: normal;
     font-stretch: normal;
@@ -39,3 +43,15 @@
     letter-spacing: normal;
     color: #666768;
 }
+@media  screen  and   (min-width: 480px) and (max-width: 768px) {
+    .postingContainer div{
+     flex-direction: column;
+    
+    }
+   }
+   @media  screen  and    (max-width: 480px) {
+    .postingContainer div{
+     flex-direction: column;
+    
+    }
+   }

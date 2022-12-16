@@ -3,8 +3,9 @@ import {createSlice} from "@reduxjs/toolkit";
 const initialUserState = {
   listLoading: false,
   actionsLoading: false,
-  companies:[],
   jobs:[],
+  works:[],
+  companies:[]
 
   
 };
@@ -35,14 +36,23 @@ export const Slice = createSlice({
         state.actionsLoading = true;
       }
     },    
-    compayGetted: (state, action) => {
-         
-      state.companies = action.payload;
-    },
     jobsGetted: (state, action) => {
          
       state.jobs = action.payload;
     },
+    worksGetted: (state, action) => {
+      state.actionsLoading = false;
+      state.works = action.payload
+      state.error = null;
+    },
+    companiesGetted: (state, action) => {
+      state.actionsLoading = false;
+      state.companies = action.payload
+
+     
+    },
+   
+   
     
     devError: (state) => {
       state.actionsLoading = false;           

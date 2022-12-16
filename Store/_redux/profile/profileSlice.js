@@ -34,16 +34,17 @@ export const Slice = createSlice({
         state.actionsLoading = true;
       }
     },    
-    userForEdit: (state, action) => {
-      state.actionsLoading = false;     
-      state.userForEdit = action.payload;      
-      state.error = null;
+    userGetList: (state, action) => {
+     state.users=action.payload
     },
+
+    //Add
     userAdd: (state, action) => {
       state.actionsLoading = false;     
       state.users=[...state.users,action.payload]    
       state.error = null;            
     },
+    //update
     userUpdate: (state, action) => {
       state.actionsLoading = false;     
       state.users= state.users.filter((user)=>{
@@ -53,6 +54,8 @@ export const Slice = createSlice({
       state.users.push(action.payload)
       state.error = null;
     },
+
+    //delete
     userDelete: (state, action) => {
       state.listLoading = false;
       state.actionsLoading = false;     
@@ -61,12 +64,6 @@ export const Slice = createSlice({
       });     
       state.error = null;
     } ,
-    userGetList: (state, action) => {
-      state.actionsLoading = false;     
-      state.users= action.payload 
-      state.error = null;
-      state.listLoading = false;
-    },
     devError: (state) => {
       state.actionsLoading = false;           
       state.error = null;

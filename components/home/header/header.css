@@ -1,10 +1,11 @@
 nav {
     height: 478px;
     width: 100%;
-    background-color: blue;
+  
     display: flex;
     flex-direction: column;
     padding-top: 30px;
+   
 }
 
 .buttonsFrame {
@@ -12,6 +13,7 @@ nav {
     flex-direction: row;
     justify-content: flex-end;
     padding-right: 150px;
+    
 }
 
 .buttonsFrame button {
@@ -45,12 +47,14 @@ nav {
     background-color: transparent!important;
     justify-content: center;
     gap: 15px;
+   
     margin-top: 48px;
+    margin-bottom: 0px !important;
 }
 
 .searchFrame input {
     width: 554px;
-    height: 56px;
+    height: 56px ;
     margin: 0 15px 10px 0;
     padding: 16px 198px 16px 20px;
     border-radius: 28px;
@@ -75,12 +79,55 @@ nav {
     width: 99px;
     height: 18px;
     margin-right: 20px;
-    font-family: MarkPro;
+    /* font-family: MarkPro; */
     font-size: 14px;
     font-weight: normal;
     font-stretch: normal;
+    text-decoration: underline;
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
     color: #fff;
 }
+
+@media  screen  and   (min-width: 480px) and (max-width: 1280px) {
+    .searchFrame{
+        flex-direction: column !important;
+        margin-top: 30px !important;
+       
+    
+    }
+    .centerImageFirst{
+        width: 40%;
+    }
+    .centerImageSecond{
+        width: 20%;
+    }
+    .bottomLinkFrame{
+        width: 20%;
+    }
+    .searchFrame input{
+        width: 80% !important;
+    }
+   }
+   @media  screen  and   (min-width: 300px) and (max-width: 479px) {
+    .searchFrame{
+        flex-direction: column !important;
+        margin-top: 30px !important;
+       
+    
+    }
+    .centerImageFirst{
+        width: 40%;
+    }
+    .centerImageSecond{
+        width: 20%;
+    }
+    .bottomLinkFrame{
+        width: 20%;
+    }
+   
+    .buttonsFrame button{
+        font-size: 12px;
+    }
+   }

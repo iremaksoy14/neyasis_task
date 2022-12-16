@@ -1,18 +1,28 @@
-import React from 'react'
+import React,{useEffect,useState} from 'react'
+import { useSelector,useDispatch } from 'react-redux'
 import './jobs.css'
-import {job} from '../../../data/job'
+
 import Slider from './Slider'
-import { jobs } from '../../../data/jobsData'
+
+import* as  homeAction from '../../../Store/_redux/home/homeAction'
 export default function index (){
-  
+  const dispatch=useDispatch()
+const jobsData =useSelector((state)=>state.home.jobs)
+  useEffect(()=>{
+    dispatch(homeAction.getJobs())
+    .then((res)=>console.log(res))
+    .catch((err)=>console.log(err))
+  },[])
+
+console.log(jobsData)
   return(
     <div className='jobContainer'>
       <label>
         Popüler Aramalar
       </label>
-      <div>
+      <div className='scrollmenu'>
         {
-          jobs.map((item)=>{
+          jobsData.map((item)=>{
             return(
               <button>
                   {item.title}
