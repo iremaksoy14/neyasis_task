@@ -22,6 +22,15 @@
     margin: auto;
     align-items: center;
   }
+  .language{
+    background-color: transparent;
+    color: white;
+  }
+  .special{
+    color: black;
+  
+    background-color: white;
+  }
   .footerTop span{
     /* font-family: MarkPro; */
     font-size: 14px;

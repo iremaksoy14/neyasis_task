@@ -33,6 +33,15 @@ footer{
   text-align: center;
   color: #fff;
 }
+.language{
+  background-color: transparent;
+  color: white;
+}
+.special{
+  color: black;
+
+  background-color: white;
+}
 .footerTop div span{
   padding-left: 10px;
   padding-right: 10px;
