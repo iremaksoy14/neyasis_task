@@ -13,14 +13,14 @@ nav {
     flex-direction: row;
     justify-content: flex-end;
     padding-right: 150px;
-    
+                                                                                                                  
 }
 
 .buttonsFrame button {
     width: 100px;
     height: 36px;
     margin: 0 20px 0 0;
-    padding: 8px 18px;
+    padding: 8px 18px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
     border-radius: 18px;
     border: solid 1px #fff;
     background-color: transparent;
@@ -50,7 +50,7 @@ nav {
     color: #808285;
   }
 
-.searchFrame {
+.searchFrameHome {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -62,7 +62,7 @@ nav {
     margin-bottom: 0px !important;
 }
 
-.searchFrame input {
+.searchFrameHome input {
     width: 554px;
     height: 56px ;
     margin: 0 15px 10px 0;
@@ -71,7 +71,7 @@ nav {
     background-color: #fff;
 }
 
-.searchFrame button {
+.searchFrameHome button {
     width: 160px;
     height: 56px;
     margin: 0 0 10px 15px;
@@ -101,7 +101,7 @@ nav {
 }
 
 @media  screen  and   (min-width: 480px) and (max-width: 1280px) {
-    .searchFrame{
+    .searchFrameHome{
         flex-direction: column !important;
         margin-top: 30px !important;
        
@@ -116,12 +116,12 @@ nav {
     .bottomLinkFrame{
         width: 20%;
     }
-    .searchFrame input{
+    .searchFrameHome input{
         width: 80% !important;
     }
    }
    @media  screen  and   (min-width: 300px) and (max-width: 479px) {
-    .searchFrame{
+    .searchFrameHome{
         flex-direction: column !important;
         margin-top: 30px !important;
        

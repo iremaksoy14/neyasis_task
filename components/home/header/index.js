@@ -19,7 +19,7 @@ function index(props) {
             <div className='centerFrame'>
                 <img className='centerImageFirst' src={logo} />
                 <img className='centerImageSecond' src={header} />
-                <div className='searchFrame'>
+                <div className='searchFrameHome'>
                     <input placeholder='İş Ara  | İş, Şirket, Anahtar Kelime'>
                     </input>
                     <button>
