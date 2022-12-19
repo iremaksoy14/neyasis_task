@@ -8,6 +8,16 @@
     align-items: center;
     justify-content: center;
 }
+::placeholder {
+    /* font-family: MarkPro; */
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #808285;
+  }
 .searchFrame input{
     width: 798px;
     height: 56px;
@@ -21,6 +31,7 @@
     width: 160px;
     height: 56px;
     border-radius: 50px;
+    background-color: white;
     border: solid 1px #4361ee;
 }
 
@@ -68,7 +79,10 @@
    
    
     .searchFrame{
+        
         flex-direction: row !important;
+    display: flex;
+    justify-content: flex-start;
     }
     .leftSectionFrame article{
         width: 150px;

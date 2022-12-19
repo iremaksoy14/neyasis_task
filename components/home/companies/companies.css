@@ -1,13 +1,13 @@
 @media  screen and (min-width: 1440px) {
    
-    .images_container{
+     .images_container{
         display: flex;
         gap: 10px;
         align-items: center;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
-       }
+       } 
     
     
     .Mask {
@@ -20,4 +20,24 @@
         margin-top: 40px;
       }
   }
+  @media  screen and (min-width: 768px)and (max-width: 1439px) {
+   
+    .images_container{
+       display: flex;
+       gap: 10px;
+       align-items: center;
+       flex-wrap: wrap;
+       flex-direction: row;
+       justify-content: space-between;
+      } 
+      
+   
+   
+   .Mask {
+    width: 50%;
+    margin: auto;
+     }
+ }
+
+
   

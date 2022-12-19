@@ -3,13 +3,13 @@
 .rightSectionContainer {
     display: flex;
     flex-direction: column;
-    min-width: 782px;
+    min-width: 400px;
     width: 782px;
     margin-left: 98px;
 }
 
 .rightSectionContainer a {
-    /* font-family: Nunito; */
+    font-family: Nunito;
     font-size: 24px;
     font-weight: 800;
     font-stretch: normal;
@@ -31,7 +31,7 @@
 
 .info {
     width: 736px;
-    /* font-family: Nunito; */
+    font-family: Nunito;
     font-size: 16px;
     font-weight: normal;
     font-stretch: normal;
@@ -42,7 +42,7 @@
 }
 
 .rightSectionContainer .title {
-    /* font-family: Nunito ; */
+    font-family: Nunito ;
     font-size: 32px;
     font-weight: 800;
     font-stretch: normal;
@@ -60,7 +60,7 @@
 }
 
 .rightSectionContainer .duzenle {
-    /* font-family: Nunito; */
+    font-family: Nunito;
     font-size: 16px;
     font-weight: bold;
     font-stretch: normal;
@@ -79,7 +79,7 @@
 }
 
 .contentText {
-    /* font-family: Nunito; */
+    font-family: Nunito;
     font-size: 24px;
     font-weight: 800;
     font-stretch: normal;
@@ -87,6 +87,11 @@
     line-height: normal;
     letter-spacing: normal;
     color: #5b6987;
+}
+.info  img {
+   margin-right:10px
+
+
 }
 
 .rightSectionContainer div {
@@ -114,13 +119,61 @@
 
 
 
-@media  screen  and   (min-width: 768px) and (max-width: 1280px) {
+@media  screen  and   (min-width: 960px) and (max-width: 1279px) {
     .wrappedFrame {
      flex-direction: column !important;
     
     }
     .rightSectionContainer div{
         flex-direction: column !important;
-        align-items: normal;
+        align-items: center;
     }
+    .rightSectionContainer{
+        width:60%;
+        align-items: center;
+        margin-left: 0px;
+    }
+    .info{
+        width: 536px;
+    }
+    
+   }
+   
+@media  screen  and   (min-width: 767px) and (max-width: 959px) {
+    .wrappedFrame {
+     flex-direction: column !important;
+    
+    }
+    .rightSectionContainer div{
+        flex-direction: column !important;
+        align-items: center;
+    }
+    .rightSectionContainer{
+        width:70%;
+        align-items: center;
+        margin-left: 0px;
+    }
+    .info{
+        width: 536px;
+    }
+    
+   }
+   @media  screen  and   (min-width: 479px) and (max-width: 767px) {
+    .wrappedFrame {
+     flex-direction: column !important;
+    
+    }
+    .rightSectionContainer div{
+        flex-direction: column !important;
+        align-items: center;
+    }
+    .rightSectionContainer{
+        width: 100%;
+        align-items: center;
+        margin-left: 0px;
+    }
+    .info{
+        width: 336px;
+    }
+    
    }

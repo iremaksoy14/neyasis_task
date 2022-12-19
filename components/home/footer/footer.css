@@ -41,9 +41,9 @@ footer{
 .footerTop div span:nth-last-child(1){
   border-style: none;
 }
-.footerTop  span:nth-last-child(1){
+/* .footerTop  span:nth-last-child(1){
   margin-left:50px ;
-}
+} */
 
 .footerTop label{
   width: 450px;
@@ -62,9 +62,7 @@ footer{
 .footer_margin{
   margin-left: 50px;
 }
-.footer_secondmargin{
-  margin-left: 81px;
-}
+
 .footerTop_nav label{
   width: 450px;
   height: 84px;

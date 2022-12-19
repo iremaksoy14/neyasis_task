@@ -3,6 +3,7 @@ import './header.css'
 import headerphoto from '../../../assets/images/find_logo.png'
 import find from '../../../assets/images/find.png'
 import home from '../../../assets/images/home.png'
+import userPhoto from '../../../assets/images/user.png'
 function index(props) {
     const user = {
         name:"Eray Karakullukçu",
@@ -21,7 +22,7 @@ function index(props) {
                             {user.job}
                         </span>
                     </div>
-                    <img/>
+                    <img src={userPhoto}/>
                 </article>
             </div>
         </header>

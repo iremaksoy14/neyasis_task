@@ -31,6 +31,7 @@ header div article span {
     font-size: 16px;
     font-weight: 900;
     font-stretch: normal;
+    font-family: "Nunito";
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
@@ -54,5 +55,5 @@ header article img {
     width: 64px;
     border-radius: 50%;
     border-style: none;
-    background-color: red;
+   
 }

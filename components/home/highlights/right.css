@@ -1,0 +1,238 @@
+.rightContainer{
+    display: flex;
+    flex-direction: column;
+  
+   padding: 60px;
+   width: 100%;
+   
+
+}
+
+.textFrame{
+    display:flex;
+flex-direction: column;
+gap:10px;
+width: fit-content;
+
+
+}
+.textFrame div{
+    gap:10px
+}
+.followFrame{
+    width: 87px;
+    height: 24px;
+    background-color:#b0ccc2;
+    border-radius: 12px;
+}
+.followFrame span{
+    font-size: .875rem;
+    font-weight: 800;
+    margin: auto;
+    font-family: 'Epilogue-Variable', 'Arial', 'Open Sans', sans-serif !important;
+}
+.textFrame div h1{
+    color: #0c482f;
+    font-weight: 700;
+    font-size:3.052rem;
+    margin: 0;
+    word-break: break-word;
+}
+
+.signContainer{
+    border-radius: 50%;
+    background-color: #b0ccc2;
+    width: 40px !important;
+    height: 40px !important;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.imageContainer{
+    display: flex;
+    background-color: #eff5f3;
+  padding-right: 1.5rem;
+    flex-direction: row;
+    height: 300px !important;
+   padding-left: 30px;
+    padding-top: 20px;
+    border-style: none;
+    
+    gap:20px;
+    border-radius: 16px;
+}
+.textFrame span{
+    color: #0c482f!important;
+    font-size: 1rem;
+    font-family: 'Epilogue-Variable', 'Arial', 'Open Sans', sans-serif !important;
+   
+    word-break: break-word;
+}
+.imageContainer div:nth-child(1){
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.imageContainer div{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    
+}
+.furnitureItem img{
+    text-align: center;
+}
+.furnitureItem h1{
+    color: #0c482f;
+    font-weight: 700;
+    font-size: 1.625rem;
+    margin: 0;
+    word-break: break-word;
+    height: 31px !important;
+}
+.furnitureItem{
+    border-radius: 50%;
+    background-color: #d5e5e0;
+    width: 30px;
+    height: 30px;
+}
+.listContainer{
+   
+    height: 46px;
+    width: 100%;
+    margin: 0px 32px 35px 45px;
+    font-size: 20px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+    letter-spacing: normal;
+    
+}
+.sliderContainer{
+    height: 70px;
+    width: 100%;
+   
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.menulistFrame{
+    display: flex !important;
+    flex-direction: row !important;
+    gap:30px;
+    width: 100%;
+    height: fit-content;
+    
+    flex-wrap: wrap;
+}
+
+.menuFrame{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    gap:20px;
+    width: 100%;
+    height: fit-content;
+    margin-top: 30px;
+    
+   
+}
+.menuFrame::-webkit-scrollbar {
+    display: none;
+  }
+.trendingFrame{
+    display: flex;
+    flex-direction: row;
+}
+.trendingFrame span{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+.menuFrame div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 30px;
+    gap:5px;
+}
+.menuItemFrame{
+    display: flex !important;
+    flex-direction: column !important;
+    width: 230px;
+    height: 320px;
+   
+    border: 2px solid transparent;
+    border-radius: 18px;
+}
+.menuItemFrame:nth-child(2){
+   
+    font-size: .875rem;
+    font-weight: 300px;
+    color: var(--colour-black);
+    margin-top: 2px;
+    margin-bottom: 4px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.menuItemFrame :nth-child(3){
+    font-size: .875rem;
+    font-weight: 700;
+    margin: 0;
+    color: var(--colour-black);
+    overflow: hidden;
+    min-height: 1.875rem;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-word;
+
+}
+.subtitle_name{
+    color:#0c482f !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+    letter-spacing: 0px !important;
+}
+.menuItemFrame button{
+    height: 36px;
+    padding: 0;
+    width: 100%;
+    min-width: inherit;
+    background-color: #d5e5e0;
+    color: #0c482f;
+    border: 1px solid #d5e5e0;
+    cursor: pointer;
+    font: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1;
+
+}
+.menuItemFrame img{
+    border-radius: 18px;
+}
+.listContainer button{
+    width: fit-content;
+    
+    margin: 0 17px 0 16px;
+    padding: 15px 25px 15px 26px;
+    color: #0c482f;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0px;
+    border-radius: 28px;
+    border: solid 1px rgba(191, 191, 191, 0.7);
+    background-color: #e9e9e9;
+}

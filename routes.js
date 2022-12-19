@@ -10,8 +10,8 @@ function Routes() {
     <div style={{display: "flex"}}>
     
       <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/about" component={About} />
+        <Route path="/"  component={Home} />
+        <Route path="/about"  component={About} />
        
         <Route component={NotFound} />
       </Switch>

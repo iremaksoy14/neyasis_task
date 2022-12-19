@@ -2,7 +2,7 @@ import bezmialem from '../assets/images/company/bezmialem.png'
 import acibadem from '../assets/images/company/acibadem.png'
 import akbank from '../assets/images/company/akbank.png'
 import akcanse from '../assets/images/company/akcansa.png'
-import akkok from '../assets/images/company/akkim.png'
+import akkok from '../assets/images/company/akkok.png'
 import aktif from '../assets/images/company/aktif-bank.png'
 import allianz from '../assets/images/company/allianz.png'
 import anadolu from '../assets/images/company/anadolu-sigorta.png'
@@ -91,19 +91,20 @@ export const company=[
         width:112,
         height:28
     },
+   
     {
         id:10,
-        name:"bezmialem",
-        img:bezmialem,
-        width:112,
-        height:56
-    },
-    {
-        id:11,
         name:"bosch",
         img:bosch,
         width:116,
         height:35
+    },
+    {
+        id:11,
+        name:"bezmialem",
+        img:bezmialem,
+        width:112,
+        height:56
     },
     {
         id:12,

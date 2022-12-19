@@ -4,20 +4,70 @@
     width: 1140px;
     margin: auto;
 }
+@media  screen  and   (min-width: 768px) and (max-width: 959px) {
+    .sectionContainer{
+       
+        flex-direction: row !important;
+       
+        width: 100%;
+        
+    }
+    .rightSectionContainer hr{
+        width:50%
+    }
+    .leftSectionFrame{
+        width: 30%;
+       
+    flex-direction: column;
+    align-items: center;
+     }
+   }
+   @media  screen  and   (min-width: 960px) and (max-width: 1270px) {
+    .sectionContainer{
+       
+        flex-direction: row !important;
+       
+        width: 100%;
+        
+    }
+    .rightSectionContainer hr{
+        width:50%
+    }
+    .leftSectionFrame{
+        width: 40%;
+       
+    flex-direction: column;
+    align-items: center;
+     }
+   }
 @media  screen  and   (min-width: 480px) and (max-width: 768px) {
     .sectionContainer{
        
         flex-direction: column;
         align-items: center;
+        width: 100%;
         
     }
+    v
+    .leftSectionFrame{
+        width: 30%;
+        flex-direction: column;
+        align-items: center;
+     }
    }
-   @media  screen  and   (min-width: 768px) and (max-width: 1280px) {
+
+   @media  screen  and   (max-width: 480px)  {
     .sectionContainer{
        
         flex-direction: column;
-        align-items: baseline;
+        align-items: center;
+        width: 100%;
         
+    }
+    .leftSectionFrame{
+       width: 100%;
+       flex-direction: column;
+       align-items: center;
     }
    }
 

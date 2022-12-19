@@ -27,5 +27,17 @@ export function getWorksCrud() {
     };   
   return axios(config)  
  }
+
+ export function getUsersCrud() {
+  
+
+  var config = {
+    method: 'get',
+    url: apiUrl+"works",
+   
+  };   
+  return  axios(config)   
+}
+
  
  

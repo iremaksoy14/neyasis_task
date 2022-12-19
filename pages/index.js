@@ -16,6 +16,7 @@ export default () =>
 <Provider store={store} >
       <PersistGate persistor={persistor} loading={"Loading"} >
       <Routes />
+   
       </PersistGate>
     </Provider>
 

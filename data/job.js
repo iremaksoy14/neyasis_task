@@ -19,7 +19,7 @@ export const job=[
         company:"Bosch",
         img:bosch,
         width:117,
-        height:45
+        height:40
       
 
 
@@ -29,7 +29,7 @@ export const job=[
         company:"Aktif Bank Genel",
         img:aktif,
         width:114,
-        height:48
+        height:40
 
     },
     {
@@ -37,7 +37,7 @@ export const job=[
         company:"Akbank Bank Genel ",
         img:akbank,
         width:115,
-        height:53
+        height:40
 
     },
     {
@@ -45,7 +45,7 @@ export const job=[
         company:"Arcelik",
         img:arcelik,
         width:112,
-        height:48
+        height:40
 
     },
     {
@@ -53,7 +53,7 @@ export const job=[
         company:"Allianz",
         img:allianz,
         width:111,
-        height:51
+        height:40
 
     },
     {
@@ -61,7 +61,24 @@ export const job=[
         company:"Bezmialem Vakıf Ü",
         img:bezmialem,
         width:88,
-        height:54
+        height:40
 
     },
+    {
+        name:"Mobile Dev.",
+        company:"Arcelik",
+        img:arcelik,
+        width:112,
+        height:40
+
+    },
+    {
+        name:"Test Dev",
+        company:"Bezmialem Vakıf Ü",
+        img:bezmialem,
+        width:111,
+        height:40
+
+    },
+    
 ]

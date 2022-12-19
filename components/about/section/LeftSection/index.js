@@ -19,6 +19,7 @@ import paper from '../../../../assets/images/paper.png'
 import * as homeActionAction from '../../../../Store/_redux/home/homeAction'
 import {useDispatch,useSelector} from 'react-redux'
 import golge from '../../../../assets/images/golge.png'
+import group from '../../../../assets/images/group.png'
 
 function index(props) {
   
@@ -110,7 +111,7 @@ function index(props) {
                     })
                 }
             </div>
-            <a>Başka bir dokğman ekle</a>
+            <a>Başka bir doküman ekle</a>
             <hr/>
             <a>Kaydedilen Aramalar</a>
             <div className='ducFrame'>  
@@ -149,6 +150,8 @@ function index(props) {
                 }
             </div>
             <a>Tümünü gör</a>
+           
+
         </div>
     );
 }
